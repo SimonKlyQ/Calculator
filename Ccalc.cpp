@@ -24,6 +24,10 @@ void Ccalc::Divi()	// ³ı
 {
 	this->_result = this->_left / this->_right;
 }
+void Ccalc::Mod()	// mod
+{
+	this->_result = this->_left % this->_right;
+}
 int Ccalc::ShowResult() // ÏÔÊ¾½á¹û
 {
 	return this->_result;
