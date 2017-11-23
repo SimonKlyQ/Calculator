@@ -11,6 +11,7 @@ public:
 	void Sub();		// ¼õ
 	void Multi();	// ³Ë
 	void Divi();	// ³ý
+	void Mod();		// mod
 	void ShowResult(); // ÏÔÊ¾½á¹û
 
 private:
