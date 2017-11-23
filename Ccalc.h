@@ -1,6 +1,8 @@
 #ifndef CCALC_H
 #define CCALC_H
 
+#include <iostream>
+
 class Ccalc
 {
 public:
@@ -11,7 +13,7 @@ public:
 	void Sub();		// 减
 	void Multi();	// 乘
 	void Divi();	// 除
-	void ShowResult(); // 显示结果
+	int ShowResult(); // 显示结果
 
 private:
 	int _right;		// 操作符右边的值
